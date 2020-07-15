@@ -56,5 +56,5 @@ fn clear_screen(background: Color) {
 #[no_mangle]
 #[no_split_stack]
 pub fn main() {
-    clear_screen(LightRed);
+    clear_screen(LightGreen);
 }
